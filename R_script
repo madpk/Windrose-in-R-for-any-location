@@ -10,7 +10,7 @@ library(nasapower)
 
 windrose_data <- get_power(
   community = "ag",
-  lonlat = c(9.9932124954781, 76.32436109915098),
+  lonlat = c(76.32436109915098,9.9932124954781),
   pars = c("WS10M", "WD10M"),
   dates = c("2022-10-15", "2022-12-20"),
   temporal_api = "daily")
